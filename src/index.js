@@ -1,0 +1,1 @@
+export { createError } from "./classes/Error.js";

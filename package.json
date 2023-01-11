@@ -1,0 +1,16 @@
+{
+  "name": "@wumpjs/providers",
+  "version": "1.0.0",
+  "description": "Providers for WumpJS packages.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/index"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colorette": "^2.0.19"
+  }
+}
