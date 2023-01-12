@@ -1,1 +1,3 @@
-export { createError } from "./classes/Error.js";
+import Checker from "./classes/Checker.js";
+
+export { Checker };

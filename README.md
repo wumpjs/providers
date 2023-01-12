@@ -1,8 +1,24 @@
-<h1 width="512" height="512" align="center">WumpJS</p>
-<div align="center">
-<a href="https://www.npmjs.com/package/@wumpjs/providers"><img src="https://img.shields.io/npm/dt/@wumpjs/providers.svg?maxAge=3600" alt="Download Count" /></a>
+# @wumpjs/providers
+[![CodeQL](https://github.com/wumpjs/providers/actions/workflows/codeql.yml/badge.svg)](https://github.com/wumpjs/providers/actions/workflows/codeql.yml)
+[![NodeJS CI](https://github.com/wumpjs/providers/actions/workflows/node.js.yml/badge.svg)](https://github.com/wumpjs/providers/actions/workflows/node.js.yml)
+[![npm]](https://img.shields.io/npm/v/wump.js.svg?maxAge=3600)
 
-<a href="https://www.npmjs.com/package/@wumpjs/providers"><img src="https://img.shields.io/npm/v/@wumpjs/providers.svg?maxAge=3600" alt="NPM Info" /></a>
-<img src="https://github.com/wumpjs/providers/actions/workflows/codeql.yml/badge.svg" alt="codeql"></img>
-<a href="https://discord.gg/FVc4Ha4G7P"><img src="https://img.shields.io/discord/1058766653741084773?color=3437eb&logo=discord&logoColor=blie" alt="Support Server" /></a>
-</div>
+Provider module for wump.js
+
+## Install
+
+To Install Module run this command
+
+```bash
+npm i -g pnpm@latest && pnpm i @wumpjs/providers
+```
+
+## Support
+
+- For support, Join our discord server.
+
+## Authors
+
+- [@MegalithOffical](https://www.github.com/MegalithOffical)
+- [@Nicat-dcw](https://www.github.com/Nicat-dcw)
+- [@erqewee](https://www.github.com/erqewee)
