@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Providers for WumpJS packages.",
   "main": "src/index.js",
+  "private": false,
   "scripts": {
     "test": "node src/index"
   },
@@ -12,5 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "colorette": "^2.0.19"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
