@@ -1,9 +1,10 @@
 {
   "name": "@wumpjs/providers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Providers for WumpJS packages.",
   "main": "src/index.js",
   "private": false,
+  "types": "src/index.d.ts",
   "scripts": {
     "test": "node src/index"
   },

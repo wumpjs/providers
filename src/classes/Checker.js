@@ -1,7 +1,6 @@
 import {
   InvalidType,
   InvalidChannel, InvalidGuild, InvalidRole,
-  NotFound, LanguageNotFound,
   NotRequestedFormat,
   DataLimitExceeded
 } from "./Error.js";
