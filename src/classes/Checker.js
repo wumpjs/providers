@@ -10,7 +10,6 @@ const upperFirst = (str = "string!") => String(str).replace(/^\w/, (c) => c.toUp
 export default class Checker {
   /**
    * Creates new Checker.
-   * @param {any} data
    */
   constructor(data) {
     this.data = data;

@@ -1,4 +1,7 @@
-import Checker from "../classes/Checker";
-const checker = new Checker(5);
+import { Checker } from "../index";
 
-checker.toString();
+new Checker<number>(5); // Using number
+new Checker<string>("@wumpjs/providers"); // Using string
+new Checker<symbol>(Symbol("My symbol")); // Using Symbol
+// ...
+new Checker<any>(); // Using Anything

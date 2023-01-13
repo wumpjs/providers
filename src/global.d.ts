@@ -1,6 +1,9 @@
 declare module "@wumpjs/providers" {
-  export class Checker {
-    public constructor(size: number);
+  export class Checker<I> {
+    public constructor(data: I);
+
+    private data: I;
+
     public isBoolean(): boolean;
     public isString(): boolean;
     public isObject(): boolean;
@@ -25,7 +28,7 @@ declare module "@wumpjs/providers" {
     public isNotBigInt(): boolean;
     public isNotAvailable(): boolean;
 
-    public createError(condition: boolean, argument?: string, { errorType, expected, received }?: { errorType?: string; expected?: string; received?: string }): { throw: () => void; };
+    public createError(condition: boolean, argument?: string, { errorType, expected, received }?: { errorType?: string; expected: string; received?: string }): { throw: () => void; };
 
     public toString(upperFirstChar?: boolean): string;
   }
