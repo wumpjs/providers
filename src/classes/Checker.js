@@ -1,6 +1,6 @@
 import {
   InvalidType,
-  InvalidChannel, InvalidGuild, InvalidRole,
+  InvalidChannel, InvalidGuild, InvalidRole,InvalidMessage,
   NotRequestedFormat,
   DataLimitExceeded
 } from "./Error.js";
@@ -249,6 +249,7 @@ export default class Checker {
     if (type === "INVALID_ROLE") error = new InvalidRole(argument);
     else if (type === "INVALID_CHANNEL") error = new InvalidChannel(argument);
     else if (type === "INVALID_GUILD") error = new InvalidGuild(argument);
+    else if(type === "INVALID_MESSAGE") error = new InvalidMessage(argument)
     else if (type === "NOT_FOUND") error = new NotFound(argument);
     else if (type === "NOT_REQUESTED_FORMAT") error = new NotRequestedFormat(argument, { expected, received: fetched });
     else if (type === "LANGUAGE_NOT_FOUND") error = new LanguageNotFound(argument, { locate: expected, path: fetched });
