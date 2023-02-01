@@ -44,6 +44,12 @@ export class InvalidGuild extends BaseError {
     super(`'${redBright(argument)}' is not a valid guild.`);
   };
 };
+export class InvalidMessage extends BaseError{
+constructor(argument){
+super(`'${redBright(argument)}' is not a valid message id or content.`);
+ 
+}
+}
 
 export class InvalidRole extends BaseError {
   constructor(argument) {
