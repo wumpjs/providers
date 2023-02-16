@@ -1,5 +1,5 @@
 # Deprecation Warning
-> This package is no longer development. Please use `@wumpjs/plugins` instead.
+> This package no longer development. Please use `@wumpjs/plugins` instead.
 
 ## @wumpjs/providers
 [![CodeQL](https://github.com/wumpjs/providers/actions/workflows/codeql.yml/badge.svg)](https://github.com/wumpjs/providers/actions/workflows/codeql.yml)
