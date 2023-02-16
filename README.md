@@ -1,4 +1,7 @@
-# @wumpjs/providers
+# Deprecation Warning
+> This package is no longer development. Please use `@wumpjs/plugins` instead.
+
+## @wumpjs/providers
 [![CodeQL](https://github.com/wumpjs/providers/actions/workflows/codeql.yml/badge.svg)](https://github.com/wumpjs/providers/actions/workflows/codeql.yml)
 [![NodeJS CI](https://github.com/wumpjs/providers/actions/workflows/node.js.yml/badge.svg)](https://github.com/wumpjs/providers/actions/workflows/node.js.yml)
 ![npm](https://img.shields.io/npm/v/wump.js.svg?maxAge=3600)
